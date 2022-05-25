@@ -1,11 +1,13 @@
-//
-//  main.swift
-//  ClassesDemo
-//
-//  Created by 김광록 on 2022/05/24.
-//
 
-import Foundation
+var skeleton1 = Enemy(health: 100, damage: 10)
+var skeleton2 = skeleton1
 
-print("Hello, World!")
+skeleton1.takeDamage(amount: 10)
 
+
+skeleton1.takeDamage(amount: 10)
+skeleton2.takeDamage(amount: 10)
+
+
+print(skeleton1.health)
+print(skeleton2.health)
